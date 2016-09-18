@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_Top"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/txt_name"/>
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/txt_email"/>
+        <EditText
+            android:id="@+id/edtPassWord"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:inputType="textPassword"
+            android:hint="@string/txt_password"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ll_Top"
+        android:orientation="vertical">
+        <Button
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/btnSignUp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="@string/txt_SignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:textColor="@color/colorAccent"
+            android:id="@+id/btnSignIn"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="@string/txt_you_have_an_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout>

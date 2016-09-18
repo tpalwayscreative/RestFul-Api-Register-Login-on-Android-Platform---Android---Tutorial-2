@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RestFul API</string>
+    <string name="txt_email">Enter A Email</string>
+    <string name="txt_password">Enter A Password</string>
+    <string name="txt_name">Enter A Name</string>
+    <string name="txt_SignIn">SignIn</string>
+    <string name="txt_SignUp">SignUp</string>
+    <string name="txt_SignOut">SignOut</string>
+    <string name="txt_create_an_account">Create An Account</string>
+    <string name="txt_you_have_an_account">You have an account</string>
+    <string name="txt_Show">Progressing Please wait...</string>
+</resources>
